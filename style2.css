@@ -1,0 +1,207 @@
+/* Dark Mode */
+.dark-mode {
+    background-color:white;
+    color:black;
+}
+.dark-mode .home-img img {
+    position: relative;
+    width: 40vw;
+    height:500px;
+}
+
+.dark-mode section {
+    background-color:white ;
+}
+
+.dark-mode .icons {
+    color: black;
+     border-color: red;
+     background-color: white;
+}
+.dark-mode .icons:hover{
+    background-color: red;
+   box-shadow: 0  0 25px red;
+}
+
+.dark-mode span{
+    color:red;
+}
+.dark-mode .btn{
+    background-color: white;
+    border-color: red;
+    color:black;
+}
+.dark-mode .btn:hover{
+    background-color: red;
+     box-shadow: 0  0 25px red;
+}
+.dark-mode header{
+    border: 2px solid red;
+}
+.dark-mode header:hover{
+    background-color: red;
+}
+.dark-mode .nav{
+    color:black;
+    background-color:transparent;
+}
+.dark-mode .nav:hover{
+     text-shadow:  0  0 25px black ;
+     color:black;
+      border-bottom: 0.5rem solid black;
+}
+
+.dark-mode .logo{
+    color:black;
+}
+.dark-mode .logo:hover{
+    text-shadow:0  0 25px red ;
+}
+.dark-mode .heading{
+    color:red;
+}
+.dark-mode .sub-head{
+    color:black;
+}
+.dark-mode .line{
+    background-color: red;
+}
+.dark-mode .soft{
+    color:black;
+}
+.dark-mode .soft:hover{
+    color: red;
+    
+}
+.dark-mode .connector{
+    background-color: black;
+}
+.dark-mode .title{
+    color:black;
+}
+.dark-mode .title1{
+    color:black;
+}
+.dark-mode .circle::before{
+    background: red;
+  border: 2px solid red;
+}
+.dark-mode .circle{
+     border-left: 4px solid black;
+}
+.dark-mode .circle h4{
+    color:red;
+}
+.dark-mode h5{
+    background-color: white;
+    color:black;
+}
+.dark-mode h5:hover{
+    background:red;
+}
+.dark-mode p{
+    color:black;
+}
+.dark-mode .circle a{
+    color:red;
+}
+.dark-mode a:hover{
+    text-shadow:0  0 25px red ;
+}
+.dark-mode .flip-card-inner {
+    box-shadow: 0 4px 8px 0 red;
+}
+.dark-mode .flip-card-back {
+    background-color: red;
+    color:black;
+    border:4px solid red;
+}
+.dark-mode .go-to {
+    background-color: red;
+    color:black;
+}
+.dark-mode .go-to:hover {
+    color:red;
+    background-color: white;
+}
+.dark-mode .box1{
+   border:4px solid red; 
+   background-color:white;
+   box-shadow: 5px 5px 10px red;
+   color:black;
+}
+.dark-mode .c-label{
+    color:black;
+}
+.dark-mode  .c-input{
+    border: 2px solid red;
+}
+.dark-mode .c-textarea{
+    width:400px;
+    height:100px;
+     border: 2px solid red;
+}
+.dark-mode button{
+    color:black;
+    background-color:white;
+    border:white;
+}
+.dark-mode button:hover{
+        background-color:red;
+        color:white;
+        box-shadow:0 0 10px red;
+         border:red;
+        }
+.dark-mode .l-box2{
+    border:4px solid red;
+    background-color:white;
+    box-shadow: 5px 5px 10px red;
+    color:black;
+}
+.dark-mode .i-container{
+    box-shadow: 0 5px 15px -5px red;
+             background-color:white;
+             color:black;
+}
+.dark-mode .i-container:hover{
+    background-color: red;
+    color:white;
+      transform: scale(1.1);
+}
+.dark-mode .p1{
+    color:black;
+}
+.dark-mode .l-box-content{
+    color:black;
+}
+.dark-mode .r-box3{
+    border:4px solid red;
+    background-color: white;
+    box-shadow: 5px 5px 10px red;
+    color:white;
+}
+.dark-mode  .sm-bttn {
+     box-shadow: 0 5px 15px -5px red;
+}
+.dark-mode  .sm-bttn i {
+    color:black;
+}
+.dark-mode .sm-bttn::before {
+             background-color:red;
+        }
+.dark-mode .box-project{
+    border: 3px solid red;
+    box-shadow: 0 0 5rem red;
+}
+.dark-mode .info-layer h3{
+    color:red;
+}
+.dark-mode .a-achive{
+    color:red;
+}
+.dark-mode .footer-copyright {
+    background-color: red;
+}
+.dark-mode .fa-heart{
+    color:pink;
+}
