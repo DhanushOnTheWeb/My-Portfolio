@@ -11,4 +11,5 @@
   - 📸 Instagram and 🎨 Dribbble (if used) for visual storytelling and creative flair.
   - 🐦 Twitter for tech insights, updates, or engagement.
 - 🧭 **Mobile-Optimized & Accessible Design**: Thoughtfully styled for every screen size with animated interactions, hover effects, and intuitive layout transitions.
+- 🌙 Dark Mode Toggle: The portfolio includes a sleek dark/light mode switch that enhances accessibility and personalization. With a simple tap, users can shift between vibrant neon highlights on dark backgrounds and a more classic light layout—perfect for improving readability across diverse environments and preferences.
 
