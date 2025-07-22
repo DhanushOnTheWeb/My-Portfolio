@@ -843,42 +843,132 @@ p{
     font-size: 1.8rem;
   }
 }
-/*
-@media only screen and (max-width: 30rem) {
+
+@media (max-width: 768px) {
   .heading {
-    font-size: 2.5rem;
+    font-size: 2rem;
+    padding: 0 2%;
   }
 
   .line {
     left: 50%;
     transform: translateX(-50%);
-    height: 18.75rem; /* 300px 
+    height: 20rem;
   }
 
   .soft {
-    font-size: 0.875rem; /* 14px 
-    left: 1.25rem; /* 20px 
-    text-align: left;
+    font-size: 1rem;
+    left: 5%;
   }
 
-  .skill1, .skill3, .skill5, .skill7 {
-    left: 3.75rem; /* 60px 
+  .skill1 {
+    top: 2.5rem;
+    left:90px;
+    animation: fadeIn 1s 1.5s forwards;
   }
 
-  .skill2, .skill4, .skill6 {
-    left: 1.875rem; /* 30px 
+  .connector1 {
+    top: 3.5rem;
+    left:4px;
+    width: 6rem;
+    animation: fadeInConnector 1s 1.5s forwards;
   }
 
-  .connector1, .connector3, .connector5, .connector7 {
-    left: 3.75rem; /* 60px 
-    width: 8.75rem; /* 140px 
+  .skill2 {
+    top: 7rem;
+    left: -140px;
+    animation: fadeIn 1s 2s forwards;
   }
 
-  .connector2, .connector4, .connector6 {
-    left: 1.875rem; /* 30px 
-    width: 8.75rem; /* 140px 
+  .connector2 {
+    top: 7.5rem;
+    left: -80px;
+    width: 8rem;
+    animation: fadeInConnector 1s 2s forwards;
   }
-}*/
+
+  .skill3 {
+    top: 10rem;
+    left: 90px;
+    animation: fadeIn 1s 2.5s forwards;
+  }
+
+  .connector3 {
+    top: 11rem;
+    left: 4px;
+    width: 8rem;
+    animation: fadeInConnector 1s 2.5s forwards;
+  }
+
+  .skill4 {
+    top: 14rem;
+    left: -140px;
+    animation: fadeIn 1s 3s forwards;
+  }
+
+  .connector4 {
+    top: 14.5rem;
+    left: -80px;
+    width: 8rem;
+    animation: fadeInConnector 1s 3s forwards;
+  }
+
+  .skill5 {
+    top: 17rem;
+    left: 90px;
+    animation: fadeIn 1s 3.5s forwards;
+  }
+
+  .connector5 {
+    top: 18rem;
+    left: 4px;
+    width: 8rem;
+    animation: fadeInConnector 1s 3.5s forwards;
+  }
+
+  .skill6 {
+    top: 21.5rem;
+    left: -140px;
+    animation: fadeIn 1s 4s forwards;
+  }
+
+  .connector6 {
+    top: 22rem;
+    left: -80px;
+    width: 8rem;
+    animation: fadeInConnector 1s 4s forwards;
+  }
+
+  .skill7 {
+    top: 24.5rem;
+    left: 90px;
+    animation: fadeIn 1s 4.5s forwards;
+  }
+
+  .connector7 {
+    top: 25rem;
+    left: 4px;
+    width: 8rem;
+    animation: fadeInConnector 1s 4.5s forwards;
+  }
+
+  /* Optional: Scale animations for smaller context */
+  @keyframes dropLine {
+    0% { height: 0; }
+    100% { height: 28rem; }
+  }
+
+  @keyframes fadeIn {
+    0% { opacity: 0; transform: translateX(-1rem); }
+    100% { opacity: 1; transform: translateX(0); }
+  }
+
+  @keyframes fadeInConnector {
+    0% { opacity: 0; width: 0; }
+    100% { opacity: 1; width: 8rem; }
+  }
+}
+
 
 @media only screen and (max-width: 30rem) {
   .title,
