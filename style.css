@@ -976,7 +976,7 @@ p{
     height: auto;
   }
   .p1{
-    font-size:10rem;
+    font-size:15px;
   }
 
   .c-input, .c-textarea {
@@ -999,7 +999,7 @@ p{
   .l-box-content, .p1 {
     margin-left: 20px;
     margin-top: 10px;
-    font-size: 20px;
+   /* font-size: 10px;*/
   }
 
   .sm-bttn {
@@ -1028,4 +1028,42 @@ p{
     height: 60px;
   }
 }
+@media (max-width: 768px) {
+  header {
+    padding: 1rem 5%;  /* reduce horizontal padding */
+    border-radius: 30px;
+    opacity: 85%; /* slightly more visible on small screens */
+  }
 
+  .logo {
+    font-size: 2rem; /* reduce logo size */
+  }
+}
+@media (max-width: 768px) {
+  .home-content p {
+    font-size: 1.2rem; /* slightly smaller for mobile */
+    padding: 0 10px; /* optional horizontal padding */
+  }
+
+  .home-img img {
+    width: 90vw;       /* fill most of screen width */
+    height: auto;      /* let image scale proportionally */
+    margin-top: 20px;  /* reduce spacing */
+    /* subtle shadow for mobile */
+    border-radius: 10px; /* gentle rounding for softer look */
+  }
+}
+@media (max-width: 768px) {
+  .home {
+    flex-direction: column;   /* stack content vertically */
+    gap: 2rem;                /* reduce gap for smaller screens */
+    padding: 2rem 1rem;       /* add padding for breathing room */
+    text-align: center;       /* center text for mobile */
+  }
+
+  .home .home-content h1 {
+    font-size: 3rem;          /* scaled down heading */
+    line-height: 1.2;
+    margin-top: 20px;
+  }
+}
