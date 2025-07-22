@@ -1158,3 +1158,12 @@ p{
     margin-top: 20px;
   }
 }
+@media (max-width: 768px) {
+  .footer-copyright {
+    padding: 0.5rem 1rem;
+    height: auto;            /* allow it to grow naturally */
+    width: 100%;             /* fill mobile width */
+    background-color: #0ef;
+    text-align: center;      /* ensures nice alignment */
+  }
+}
