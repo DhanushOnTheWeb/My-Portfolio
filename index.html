@@ -1,8 +1,5 @@
 <!DOCTYPE html>
-<!-- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-                                                               @copyrights owned by Dhanush Rao                                                                           
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
-    <html lang="en">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -36,7 +33,7 @@
 
     <section class="home" id="home">
         <div class="home-img">
-            <img src="assets/profile/main1.png" id="themeImage" alt="">
+            <img src="assets/profile/profile1.png" id="themeImage" alt="">
         </div>
         <div class="home-content">
             <h1>Hi, It's <span>Dhanush</span></h1>
@@ -260,10 +257,12 @@ This achievement enhances my ability to analyze vast datasets, extract meaningfu
                    </div>
                    </section>
 <br>
-    
+
     <!--project section-->
    <h3 class="title">Projects</h3>
-    <br>
+   
+   <br>
+
      <div class="achivements">
          <div class="project-container ">
                 <!-- achive 1 -->
@@ -370,7 +369,7 @@ This achievement enhances my ability to analyze vast datasets, extract meaningfu
     localStorage.setItem("theme", this.checked ? "Dark" : "Light");
 
     // Switch image based on mode
-    document.getElementById("themeImage").src = this.checked ? "assets/profile/main.png" : "assets/profile/main1.png";
+    document.getElementById("themeImage").src = this.checked ? "assets/profile/profile2.png" : "assets/profile/profile1.png";
 });
 
 // Preserve mode and image on page reload
@@ -378,22 +377,9 @@ window.onload = function() {
     let darkModeEnabled = localStorage.getItem("theme") === "Dark";
     document.body.classList.toggle("dark-mode", darkModeEnabled);
     document.getElementById("darkModeToggle").checked = darkModeEnabled;
-    document.getElementById("themeImage").src = darkModeEnabled ? "assets/profile/main.png" : "assets/profile/main1.png";
+    document.getElementById("themeImage").src = darkModeEnabled ? "assets/profile/profile2.png" : "assets/profile/profile1.png";
 };
     </script>
-<!--animation slides-->
-    <script>
-        // to stop the slides when cursor is placed
-     const iconsContainer = document.getElementById("tools");
 
-iconsContainer.addEventListener("mouseover", () => {
-  iconsContainer.style.animationPlayState = "paused";
-});
-
-iconsContainer.addEventListener("mouseout", () => {
-  iconsContainer.style.animationPlayState = "running";
-});
-</script>
-<!--achivements slides-->
 </body>
 </html>
