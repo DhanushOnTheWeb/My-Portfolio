@@ -189,6 +189,16 @@
     color:pink;
 }
 
+@media (max-width: 768px) {
+     .dark-mode .home-img img {
+    width: 90vw;       /* fill most of screen width */
+    height: auto;      /* let image scale proportionally */
+    margin-top: 20px;  /* reduce spacing */
+    /* subtle shadow for mobile */
+    border-radius: 10px; /* gentle rounding for softer look */
+  }
+}
+
 
 
 
