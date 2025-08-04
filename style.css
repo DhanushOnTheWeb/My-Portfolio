@@ -809,7 +809,6 @@ p{
     justify-content: center;
     padding: 10px;
     height:100px;
-    width:auto;
     background-color: #0ef;
     
 }
@@ -1156,14 +1155,5 @@ p{
     font-size: 3rem;          /* scaled down heading */
     line-height: 1.2;
     margin-top: 20px;
-  }
-}
-@media (max-width: 768px) {
-  .footer-copyright {
-    padding: 0.5rem 1rem;
-    height: auto;            /* allow it to grow naturally */
-    width: 100%;             /* fill mobile width */
-    background-color: #0ef;
-    text-align: center;      /* ensures nice alignment */
   }
 }
