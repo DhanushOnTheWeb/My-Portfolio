@@ -479,18 +479,18 @@ p{
 
  .proj-img{
         height:300px;
-        width:400px;
+        width:500px;
     }
 
 .flip-card {
-  width: 400px;
+  width: 500px;
   height: 300px;
   perspective: 1000px;
   background-color: transparent;
 }
 
 .flip-card-inner {
-  width: 400px;
+  width: 500px;
   height: 300px;
   position: relative;
   transition: transform 0.6s;
@@ -1163,6 +1163,7 @@ p{
 /*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
                                                         @Copyrights Reserved By Dhanush Rao                                                                                   
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
 
 
 
