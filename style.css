@@ -752,9 +752,9 @@ p{
 }
 
 .box-project img {
-    width: 400px;
+    width: 500px;
     height:300px;
-    border-radius: 20px;
+    border-radius: 0px;
     cursor: pointer;
     margin-top: 0px;
 
@@ -763,7 +763,7 @@ p{
 }
 .info-layer {
     height:100%;
-    width:400px;
+    width:500px;
     position: absolute;
     bottom: 0;
     gap: 10px;
@@ -775,7 +775,7 @@ p{
     padding-inline: 2rem;
     transform: translateY(100%);
     transition: 0.5s;
-   padding: 0 70px 30px 40px;
+    padding: 0 4rem;
     text-align: center;
 
 }
@@ -1163,6 +1163,7 @@ p{
 /*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
                                                         @Copyrights Reserved By Dhanush Rao                                                                                   
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
 
 
 
