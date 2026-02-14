@@ -733,7 +733,7 @@ p{
 /* Achivements */
 .project-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 10px;
     align-items: center;
 }
@@ -746,7 +746,6 @@ p{
     margin: 2% 0;
     width: 500px !important;
     position: relative;
-    box-shadow: 0 0 5rem #0ef;
     overflow: hidden;
     margin-left:10px;
 }
@@ -1163,6 +1162,7 @@ p{
 /*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
                                                         @Copyrights Reserved By Dhanush Rao                                                                                   
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
 
 
 
