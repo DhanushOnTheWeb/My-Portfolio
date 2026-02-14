@@ -744,7 +744,7 @@ p{
     color: black;
     border: 3px solid #0ef;
     margin: 2% 0;
-    width: 300px !important;
+    width: 400px !important;
     position: relative;
     box-shadow: 0 0 5rem #0ef;
     overflow: hidden;
@@ -752,7 +752,7 @@ p{
 }
 
 .box-project img {
-    width: 300px;
+    width: 400px;
     height:300px;
     border-radius: 20px;
     cursor: pointer;
@@ -1163,5 +1163,6 @@ p{
 /*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
                                                         @Copyrights Reserved By Dhanush Rao                                                                                   
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
 
 
